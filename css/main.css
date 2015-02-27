@@ -214,7 +214,7 @@ main {
 	left: 0;
 }
 .bcg {
-	background-position: center 30%;
+	background-position: center 40%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -482,6 +482,7 @@ main {
 p{
     padding: 1% 10%;
     font-family: 'Guardian9';
+    font-size: 28px;
 }
 
 .textcircle {
@@ -496,6 +497,24 @@ p{
 
     font: 32px 'Guardian7';
 }
+
+
+.dropcap {
+max-width: 10%;
+background-position: center;
+font-size: 400%;
+float: left;   
+line-height: 0.7em;
+padding: 0 2px 0 0;       
+color: #222;         
+font:'Guardian7';
+position: relative;
+left: -3px;
+}
 .width{
     max-width: 100%;
+}
+
+.height{
+    max-height: 500px;
 }
